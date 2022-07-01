@@ -39,19 +39,19 @@ body img {
   margin: 0;
 }
 #clock {
-  font-size: 460px;
+  font-size: 130px;
 }
 #greeting {
-  font-size: 150px;
+  font-size: 60px;
   margin-bottom: 15px;
 }
 #quote {
-  font-size: 71px;
+  font-size: 27px;
   position: absolute;
-  bottom: 110px;
+  bottom: 70px;
 }
 #weather {
-  font-size: 70px;
+  font-size: 20px;
   position: absolute;
   top: 55px;
   right: 70px;
@@ -60,12 +60,12 @@ body img {
   border-bottom: 6px solid white;
 }
 #todo-form input {
-  width: 1000px;
-  height: 90px;
+  width: 405px;
+  height: 58px;
   border: none;
   background-color: transparent;
   color: white;
-  font-size: 90px;
+  font-size: 30px;
 }
 #todo-form input::placeholder {
   color: white;
@@ -97,15 +97,15 @@ body img {
 }
 #login-form {
   border-bottom: 6px solid white;
-  margin-bottom: 80px;
+  margin-bottom: 30px;
 }
 #login-form input {
-  width: 1000px;
-  height: 90px;
+  width: 405px;
+  height: 58px;
   border: none;
   background-color: transparent;
   color: white;
-  font-size: 90px;
+  font-size: 30px;
 }
 #login-form input::placeholder {
   color: white;

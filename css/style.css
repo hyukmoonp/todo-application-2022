@@ -74,26 +74,26 @@ body img {
   outline: none;
 }
 #todo-list {
-  font-size: 100px;
+  font-size: 20px;
   position: absolute;
-  right: 170px;
-  bottom: 950px;
+  right: 75px;
+  bottom: 180px;
 }
 #todo-list li {
   display: flex;
   align-items: center;
 }
 #todo-list button {
-  font-size: 58px;
+  font-size: 15px;
   background: none;
-  border: 11px solid white;
+  border: 2px solid white;
   border-radius: 50%;
   color: white;
   cursor: pointer;
-  width: 96px;
+  width: 26px;
   height: auto;
   font-weight: bolder;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 #login-form {
   border-bottom: 6px solid white;

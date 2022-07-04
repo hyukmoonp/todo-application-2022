@@ -78,6 +78,7 @@ body img {
   position: absolute;
   right: 75px;
   bottom: 180px;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 #todo-list li {
   display: flex;

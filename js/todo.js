@@ -1,6 +1,7 @@
 const toDoForm = document.querySelector("#todo-form");
 const toDoInput = toDoForm.querySelector("input");
 const toDolist = document.querySelector("#todo-list");
+const toDoStart = document.querySelector(".todo-list-start");
 
 const TODOS_KEY = "todos";
 let toDos = [];
@@ -36,6 +37,7 @@ function handleToDoSubmit(event) {
     text: newToDo,
     id: Date.now(),
   };
+  toDoStart.classList.add(HIDDEN_CLASSNAME);
   toDos.push(newTodoObj);
   paintToDo(newTodoObj);
   saveToDos();
@@ -49,4 +51,7 @@ if (savedToDos !== null) {
   const parsedToDos = JSON.parse(savedToDos);
   toDos = parsedToDos;
   parsedToDos.forEach(paintToDo);
+  toDoStart.classList.add(HIDDEN_CLASSNAME);
+} else {
+  toDoStart.classList.remove(HIDDEN_CLASSNAME);
 }

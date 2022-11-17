@@ -36,9 +36,9 @@ if (savedUsername === null) {
 
 function greetingByTime() {
   if (hours < 12) {
-    greeting.innerText = `Good Morning, ${savedUsername}!`;
+    greeting.innerText = `좋은 아침입니다, ${savedUsername}!`;
   } else {
-    greeting.innerText = `Good Afternoon, ${savedUsername}!`;
+    greeting.innerText = `일을 마무리 해봅시다!, ${savedUsername}!`;
   }
 }
 greetingByTime();
